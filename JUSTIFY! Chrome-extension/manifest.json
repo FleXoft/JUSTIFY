@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name":        "JUSTIFY! Modify web page's CSS to be justified...",
+	"version":     "1.0",
+	"description": "Modify web page's CSS to be justified on the following sites: qubit.hu, index.hu, 444.hu, paulstamatiou.com",
+
+	"icons": { "16": "icon16.png",
+	       	   "48": "icon48.png",
+	          "128": "icon128.png" },
+
+	"content_scripts": [{
+		"css":     [ "styles.css" ],
+		"js":      [ "content.js" ],
+		"matches": [ "https://qubit.hu/*", "https://index.hu/*", "https://444.hu/*", "https://paulstamatiou.com/*" ]
+	}]
+}

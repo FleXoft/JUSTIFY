@@ -1,0 +1,14 @@
+p { text-align: justify; }
+
+.post-box__excerpt { text-align: justify; }
+.ajanlo { text-align: justify; }
+.lead { text-align: justify; }
+.cikk-torzs { text-align: justify; }
+.post-title { text-align: justify; }
+.item__text { text-align: justify; }
+
+ .post__content>p { width: 100% !important; }
+
+ li { text-align: justify; }
+ #site .content-module { text-align: justify; }
+ #postex section { width: 50em !important; }
