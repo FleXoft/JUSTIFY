@@ -7,8 +7,12 @@ p { text-align: justify; }
 .post-title { text-align: justify; }
 .item__text { text-align: justify; }
 
- .post__content>p { width: 100% !important; }
+.article_desc { text-align: justify; }
+.article_content-right { text-align: justify; }
+
+ .post__content.p { width: 100% !important; }
 
  li { text-align: justify; }
  #site .content-module { text-align: justify; }
  #postex section { width: 50em !important; }
+
